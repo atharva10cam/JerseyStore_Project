@@ -1,2 +1,2 @@
-# JerseyStore_Project
+# football-jersey-store
 This is my best project.
