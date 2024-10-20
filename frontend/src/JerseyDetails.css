@@ -1,0 +1,57 @@
+.jersey-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.jersey-detail-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.jersey-info p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.size-chart {
+  margin: 20px 0;
+}
+
+.size-chart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.size-chart th, .size-chart td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.size-chart th {
+  background-color: #333;
+  color: white;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.add-to-cart, .buy-now {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover, .buy-now:hover {
+  background-color: #555;
+}

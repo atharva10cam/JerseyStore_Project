@@ -1,0 +1,41 @@
+.add-to-cart-button, .buy-now-button, .proceed-checkout-button {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .add-to-cart-button:hover, .buy-now-button:hover, .proceed-checkout-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .jersey-details {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .quantity-selector input {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .remove-item {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .remove-item:hover {
+    background-color: #c82333;
+  }
+  

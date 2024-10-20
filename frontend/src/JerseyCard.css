@@ -1,0 +1,25 @@
+.jersey-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.jersey-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.jersey-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: black;
+}
+
+.jersey-card p {
+  margin: 5px 0;
+  color: gray;
+}

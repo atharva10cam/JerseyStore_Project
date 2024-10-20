@@ -1,0 +1,33 @@
+/* src/components/PromotionalSection.css */
+
+.promotional-section {
+    background-color: #080808;
+    color: #fff;
+    padding: 40px 30px;
+    text-align: center;
+  }
+  
+  .promo-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .promo-text {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .promo-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #050505;
+    background-color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .promo-button:hover {
+    background-color: #f1f1f1;
+  }
+  

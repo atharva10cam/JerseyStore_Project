@@ -1,0 +1,67 @@
+/* ConfirmationPage.css */
+.confirmation-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .order-summary {
+    margin-bottom: 30px;
+  }
+  
+  .order-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .order-item-image {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .order-item-details {
+    flex: 1;
+  }
+  
+  .order-item-details h4 {
+    margin: 0;
+  }
+  
+  .order-total {
+    margin-top: 20px;
+  }
+  
+  .shipping-info {
+    margin-top: 20px;
+  }
+  
+  .confirmation-actions {
+    margin-top: 30px;
+  }
+  
+  .continue-shopping-button,
+  .order-history-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .continue-shopping-button:hover,
+  .order-history-button:hover {
+    background-color: #0056b3;
+  }
+  

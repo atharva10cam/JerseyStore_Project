@@ -1,0 +1,41 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+  color: #333333; /* Darker text for better readability */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+header {
+  background: linear-gradient(to right, #003366, #001f3f); /* Navy gradient */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s ease;
+}
+
+header:hover {
+  background: linear-gradient(to right, #004080, #002f6c); /* Darker navy on hover */
+}
+
+footer {
+  background: linear-gradient(to right, #003366, #001f3f); /* Navy gradient */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+footer:hover {
+  background: linear-gradient(to right, #004080, #002f6c); /* Darker navy on hover */
+}

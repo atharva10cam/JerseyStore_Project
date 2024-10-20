@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-title {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  margin: 10px 0 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4500;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e03e00;
+}
+
+/* Featured Jerseys Section */
+.featured-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.jersey-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.jersey-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.jersey-card:hover {
+  transform: translateY(-5px);
+}
+
+.jersey-image {
+  width: 100%;
+  height: auto;
+}
+
+.jersey-info {
+  padding: 20px;
+}
+
+.jersey-info h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #000;
+}
+
+.jersey-price {
+  font-size: 1.2em;
+  color: #ff4500;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.jersey-brand {
+  font-size: 1em;
+  color: #777;
+}
+
+/* Promotional Section */
+.promotional-section {
+  padding: 50px 20px;
+  background-color: #ffefd5;
+  text-align: center;
+}
+
+.promo-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #ff4500;
+}
+
+.promo-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.promo-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4500;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.promo-button:hover {
+  background-color: #e03e00;
+}

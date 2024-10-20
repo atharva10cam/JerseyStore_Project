@@ -1,0 +1,2 @@
+import customLogo from './custom-logo.png';
+<img src={customLogo} alt="Custom Logo" />
